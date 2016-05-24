@@ -46,14 +46,14 @@
 
 
 # All easing functions take these parameters:
-# -- t = time     should go from 0 to duration
-# -- b = begin    value of the property being ease.
-# -- c = change   ending value of the property - beginning value of the property
-# -- d = duration
+# t = time     should go from 0 to duration
+# b = begin    value of the property being ease.
+# c = change   ending value of the property - beginning value of the property
+# d = duration
 #
-#	-- Some functions allow additional modifiers, like the elastic functions
-#	-- which also can receive an amplitud and a period parameters (defaults
-#	-- are included)
+# Some functions allow additional modifiers, like the elastic functions
+# which also can receive an amplitud and a period parameters (defaults
+# are included)
 
 class Back:
 	static func easeIn(t, b, c, d, s = 1.70158):
