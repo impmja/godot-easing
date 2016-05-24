@@ -2,7 +2,7 @@
 
 This is a Godot Script (GDScript) ([http://www.godotengine.org/](http://www.godotengine.org/ "Godot Engine")) port of the Robert Penner's equations for easing. You can find much more information about it on [http://robertpenner.com/easing/](http://robertpenner.com/easing/ "Rober Penner - Easing").
 
-This library is based off:
+This library is heavily based off:
 
 * [https://github.com/jesusgollonet/processing-penner-easing](https://github.com/jesusgollonet/processing-penner-easing "jesús gollonet")
 * [https://github.com/EmmanuelOga/easing](https://github.com/EmmanuelOga/easing "Emmanuel Oga")
