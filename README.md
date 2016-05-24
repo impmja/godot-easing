@@ -1,7 +1,5 @@
 # Godot Easing Script
 
-----------
-
 This is a Godot Script (GDScript) ([http://www.godotengine.org/](http://www.godotengine.org/ "Godot Engine")) port of the Robert Penner's equations for easing. You can find much more information about it on [http://robertpenner.com/easing/](http://robertpenner.com/easing/ "Rober Penner - Easing").
 
 This library is based off:
@@ -11,8 +9,6 @@ This library is based off:
 
 
 #Disclaimer for Robert Penner's Easing Equations license:
-
-----------
 
 TERMS OF USE - EASING EQUATIONS
 
@@ -31,8 +27,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 
 # Usage:
-
-----------
 
     onready var Easing = preload("easing.gd")
     
@@ -65,13 +59,9 @@ are included)
 
 # License
 
-----------
-
 This Godot Script is licensed under the MIT license.
 
 
 #Author
-
-----------
 
 * Jan Schulte ([http://github.com/impmja](http://github.com/impmja "impmja"))
