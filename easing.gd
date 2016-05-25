@@ -3,8 +3,8 @@
 # This is a Godot Script (GDScript) (http://www.godotengine.org/) port of the Robert Penner's equations for easing. You can find much more information about it on http://robertpenner.com/easing/.
 
 # This library is based off:
-#	* https://github.com/EmmanuelOga/easing
-#	* https://github.com/jesusgollonet/processing-penner-easing
+# * https://github.com/EmmanuelOga/easing
+# * https://github.com/jesusgollonet/processing-penner-easing
 
 
 # Disclaimer for Robert Penner's Easing Equations license:
@@ -166,9 +166,9 @@ class Elastic:
 		t = t / d
 		if (t == 1):
 			return b + c
-		p = d * 0.3
-		a = c
-		s = p / 4
+		var p = d * 0.3
+		var a = c
+		var s = p / 4
 		return (a * pow(2, -10 * t) * sin((t * d - s) * (2 * PI) / p) + c + b)
 
 	static func easeOutEx(t, b, c, d, a, p):
@@ -191,9 +191,9 @@ class Elastic:
 		t = t / d / 2
 		if (t == 2):
 			return b + c
-		p = d * (0.3 * 1.5)
-		a = c
-		s = p / 4
+		var p = d * (0.3 * 1.5)
+		var a = c
+		var s = p / 4
 		if (t < 1):
 			t = t - 1
 			return -0.5 * (a * pow(2, 10 * t) * sin((t * d - s) * (2 * PI) / p)) + b
