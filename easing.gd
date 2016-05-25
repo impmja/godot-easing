@@ -39,10 +39,6 @@
 #		print(Easing.Cubic.easeOut(duration / 2.0, startValue, change, duration))			# --> 0.875
 #		print(Easing.Cubic.easeOut(duration / (3.0/4.0), startValue, change, duration))		# --> 1.037037
 #		print(Easing.Cubic.easeOut(duration, startValue, change, duration))					# --> 1
-#
-#		var currentValue = startValue + Easing.Cubic.easeOut(duration / 2.0, startValue, change, duration) * (endValue - startValue)
-#		print(currentValue)																	# --> 0.875
-#
 
 
 # All easing functions take these parameters:
